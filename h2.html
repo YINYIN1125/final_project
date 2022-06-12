@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordaily_bakery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ </head>
+  
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <div class="warp">
+    <div class="first_menu" id="first_menu">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/groups/3331738357058915/" target="_blank">
+            <img src="https://i.postimg.cc/sfNL8mtL/icon-facebook.png" class="fb">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_ordaily/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png">
+          </a>
+        </li>
+      <span>follow us!</span>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="second_menu">
+    <div class="logo"><img src="https://yinyin1125.github.io/final_project/brand.png" width="100px" alt="logo"><i><b>Ordaily</i></b></div>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="h2.html"><span class="about_ordaily">O</span>胖介紹</a></li>
+        <li><a href="h3.html">獨家好康</a></li>
+        <li><a href="h4.html">關於<span class="about_ordaily">Ordaily</span></a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <section id="service2">
+   <div class="container-fluid">
+   <div class="row">
+   <div class="col-sm-12">
+          <h1><span class="about_ordaily">O</span>胖介紹</h1>
+   <hr/>
+   </div>
+   <div class="bread">
+   <div class="col-sm-6">
+  <div class="lemon"><img src="https://yinyin1125.github.io/final_project/apple.jpg" alt="golden apple" width="100%">
+  <div class="text-block">
+    <h4>Golden Apple</h4>
+    <p>特調百香檸檬</p>
+  </div></div>
+</div>
+<div class="col-sm-6">
+  <div class="redbean"><img src="https://yinyin1125.github.io/final_project/pork.jpg" alt="pork leg noodle" width="100%">
+    <div class="text-block3">
+    <h4>Pork Leg Noodle</h4>
+    <p>軟綿紅豆+QQ湯圓</p>
+  </div>
+  </div>
+</div>
+<br>
+<div class="bread2">
+   <div class="col-sm-6">
+  <div class="lemon"><img src="https://yinyin1125.github.io/final_project/eye.jpg" alt="blood eye" width="100%">
+  <div class="text-block2">
+    <h4>Blood Eye</h4>
+    <p>特製覆盆莓奶酪</p>
+  </div>
+  </div>
+</div>
+<div class="col-sm-6">
+  <div class="redbean"><img src="https://yinyin1125.github.io/final_project/box.jpg" alt="pandora's box" width="100%">
+  <div class="text-block4">
+    <h4>Pandora's Box</h4>
+    <p>紅蘿蔔+馬鈴薯+57號地瓜</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+   </div>
+</section>
+    
+    <div class="footer">
+      <a href="#first_menu">
+      <img src="https://yinyin1125.github.io/final_project/brand.png" width="100px" alt="logo"><i><b>Ordaily</i></b>
+      </a>
+      <ul>
+        <li>
+          <h3>地址：<span class="othercolor">嘉義縣民雄鄉平凡路8號 </span></h3>
+        </li>
+        <li>
+          <h3>信箱：<span class="othercolor">s1093898@g.ncyu.edu.tw </span></h3>
+        </li>
+        <li>
+          <h3>電話：<span class="othercolor">0908080888</span></h3>
+        </li>
+      </ul>
+ </div>
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>

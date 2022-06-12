@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordaily_bakery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ </head>
+  
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <div class="warp">
+    <div class="first_menu" id="first_menu">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/groups/3331738357058915/" target="_blank">
+            <img src="https://i.postimg.cc/sfNL8mtL/icon-facebook.png" class="fb">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_ordaily/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png">
+          </a>
+        </li>
+      <span>follow us!</span>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="second_menu">
+    <div class="logo"><img src="https://yinyin1125.github.io/final_project/brand.png" width="100px" alt="logo"><i><b>Ordaily</i></b></div>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="h2.html"><span class="about_ordaily">O</span>胖介紹</a></li>
+        <li><a href="h3.html">獨家好康</a></li>
+        <li><a href="h4.html">關於<span class="about_ordaily">Ordaily</span></a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <section id="service3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>獨家好康<span class="love">Love</span></h1>
+          <hr/>
+          <p class="June">【6月好康】</p>
+          <a href="https://forms.gle/f5WG2HwyRmfKJzEw5" target="_blank"><div class="June_img"><img src="https://yinyin1125.github.io/final_project/giveaway.jpg" width="55%"></a><span class="activity"> ◀ 點選進入「表單」查看活動詳情✨</span></div>
+
+        <div class="all_table"><table>
+        <p class="long">【長期好康】</p>
+        <tr class="table_top">
+          <td>會員等級</td>
+          <th>金O<img src="https://yinyin1125.github.io/final_project/金.png" alt="金o_icon" width="50px"></th>
+          <th>銀O<img src="https://yinyin1125.github.io/final_project/銀.png" alt="銀o_icon" width="50px"></th>
+          <th>銅O<img src="https://yinyin1125.github.io/final_project/銅.png" alt="銅o_icon" width="50px"></th>
+        </tr>
+        <tr>
+          <td>消費額度</td>
+          <td style="color:#B89600">$2000</td>
+          <td style="color:#797979">$1000</td>
+          <td style="color:#AF5500">$500</td>
+        </tr>
+        <tr>
+          <td>新O禮</td>
+          <td style="color:#B89600">$500折價券</td>
+          <td style="color:#797979">$300折價券</td>
+          <td style="color:#AF5500">$100折價券</td>
+        </tr>
+        <tr>
+          <td>生日禮</td>
+          <td style="color:red">神秘小蛋糕</td>
+          <td style="color:red">x</td>
+          <td style="color:red">x</td>
+        </tr>
+        <tr>
+          <td>新品試吃</td>
+          <td style="color:red">獨享嚐鮮</td>
+          <td style="color:red">x</td>
+          <td style="color:red">x</td>
+        </tr>
+        <tr>
+          <td>效期</td>
+          <td style="color:red">永久</td>
+          <td style="color:#797979">1年</td>
+          <td style="color:#AF5500">6個月</td>
+        </tr>
+      </table>
+    </div>
+        </div>
+      </div>
+    </div>
+</section> 
+    
+    <div class="footer">
+      <a href="#first_menu">
+      <img src="https://yinyin1125.github.io/final_project/brand.png" width="100px" alt="logo"><i><b>Ordaily</i></b>
+      </a>
+      <ul>
+        <li>
+          <h3>地址：<span class="othercolor">嘉義縣民雄鄉平凡路8號 </span></h3>
+        </li>
+        <li>
+          <h3>信箱：<span class="othercolor">s1093898@g.ncyu.edu.tw </span></h3>
+        </li>
+        <li>
+          <h3>電話：<span class="othercolor">0908080888</span></h3>
+        </li>
+      </ul>
+ </div>
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+</html>
